@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kia Secure | Professional Security & Safety Solutions UK</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0F172A',     /* Deep Slate Navy */
+                        brandRed: '#DC2626',    /* Brand Red from Logo */
+                        brandRedHover: '#B91C1C',
+                        surface: '#FFFFFF',
+                        surfaceMuted: '#F8FAFC',
+                        borderSubtle: '#E2E8F0',
+                        textMain: '#1E293B',
+                        textMuted: '#64748B'
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+                        heading: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FFFFFF;
+            color: #1E293B;
+            overflow-x: hidden;
+        }
+        .clean-shadow {
+            box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
+        }
+        .card-hover {
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 32px -8px rgba(15, 23, 42, 0.1);
+            border-color: #CBD5E1;
+        }
+        .hero-pattern {
+            background-color: #FAFAFA;
+            background-image: radial-gradient(#E2E8F0 1.2px, transparent 1.2px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="selection:bg-brandRed selection:text-white">
+
+    <!-- Top Hotline Announcement Bar -->
+    <div class="bg-primary text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span class="inline-flex items-center gap-1.5 text-white font-medium">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    24/7 Operations Control Active
+                </span>
+                <span class="hidden md:inline text-slate-500">|</span>
+                <span class="hidden md:inline text-slate-300">
+                    <i class="fa-solid fa-shield-halved text-brandRed mr-1"></i> ACS & SIA Standards Compliant
+                </span>
+            </div>
+            <div class="flex items-center gap-5">
+                <a href="mailto:control@kiasecure.com" class="hover:text-white transition-colors flex items-center gap-1.5 font-medium">
+                    <i class="fa-regular fa-envelope text-brandRed"></i> control@kiasecure.com
+                </a>
+                <span class="text-slate-700">|</span>
+                <a href="tel:+442080000000" class="text-white font-semibold hover:text-brandRed transition-colors flex items-center gap-1">
+                    <i class="fa-solid fa-phone text-brandRed"></i> +44 20 8000 0000
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Clean Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-borderSubtle">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Logo matching uploaded Red/Black Shield Image -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-11 h-11 flex-shrink-0 transition-transform group-hover:scale-105">
+                    <svg viewBox="0 0 200 220" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Left Half of Shield (Red) -->
+                        <path d="M100 12 L20 45 V125 C20 170 58 200 100 216 V12 Z" fill="#DC2626" />
+                        <!-- Right Half of Shield (Black) -->
+                        <path d="M100 12 L180 45 V125 C180 170 142 200 100 216 V12 Z" fill="#0F172A" />
+                        <!-- White Inner Body -->
+                        <path d="M100 25 L34 53 V120 C34 158 66 186 100 200 C134 186 166 158 166 120 V53 L100 25 Z" fill="#FFFFFF"/>
+                        <!-- KIA Text: K (Red) -->
+                        <path d="M48 64 H64 V92 L82 64 H100 L79 98 L102 142 H84 L67 108 L64 113 V142 H48 V64 Z" fill="#DC2626"/>
+                        <!-- I (Black) -->
+                        <path d="M93 64 H107 V142 H93 V64 Z" fill="#0F172A"/>
+                        <!-- A (Black) -->
+                        <path d="M110 142 L132 64 H148 L170 142 H153 L147 122 H127 L122 142 H110 Z M132 107 H143 L138 84 L132 107 Z" fill="#0F172A"/>
+                        <!-- Padlock Base at bottom -->
+                        <rect x="85" y="154" width="30" height="30" rx="4" fill="#0F172A"/>
+                        <path d="M91 154 V145 C91 140 95 136 100 136 C105 136 109 140 109 145 V154" stroke="#0F172A" stroke-width="4.5" fill="none"/>
+                        <!-- Keyhole -->
+                        <circle cx="100" cy="166" r="3" fill="#FFFFFF"/>
+                        <path d="M99 168 H101 L102 175 H98 L99 168 Z" fill="#FFFFFF"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight text-primary flex items-center font-heading">
+                        KIA<span class="text-brandRed ml-0.5">SECURE</span>
+                    </span>
+                    <span class="text-[10px] uppercase font-bold tracking-widest text-slate-400 block -mt-1">kiasecure.com</span>
+                </div>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+                <a href="#services" class="hover:text-brandRed transition-colors">Services</a>
+                <a href="#directory" class="hover:text-brandRed transition-colors">Email Directory</a>
+                <a href="#accreditation" class="hover:text-brandRed transition-colors">Certifications</a>
+                <a href="#about" class="hover:text-brandRed transition-colors">About</a>
+                <a href="#contact" class="hover:text-brandRed transition-colors">Contact</a>
+            </nav>
+
+            <!-- Quick Action CTA -->
+            <div class="flex items-center gap-3">
+                <a href="#contact" class="hidden sm:inline-flex items-center gap-2 bg-brandRed hover:bg-brandRedHover text-white px-5 py-2.5 rounded-lg text-sm font-bold shadow-md shadow-red-500/20 transition-all transform active:scale-95">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Get A Quote</span>
+                </a>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobileToggle" class="md:hidden p-2 rounded-lg text-slate-600 hover:text-primary hover:bg-slate-100">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-borderSubtle px-6 py-4 space-y-3">
+            <a href="#services" class="mobile-nav block text-sm font-semibold text-slate-700 py-1.5 hover:text-brandRed">Services</a>
+            <a href="#directory" class="mobile-nav block text-sm font-semibold text-slate-700 py-1.5 hover:text-brandRed">Department Directory</a>
+            <a href="#accreditation" class="mobile-nav block text-sm font-semibold text-slate-700 py-1.5 hover:text-brandRed">ACS Certifications</a>
+            <a href="#about" class="mobile-nav block text-sm font-semibold text-slate-700 py-1.5 hover:text-brandRed">About Us</a>
+            <a href="#contact" class="mobile-nav block text-sm font-semibold text-brandRed py-1.5 font-bold">Contact & Quote</a>
+        </div>
+    </header>
+
+    <!-- Clean, High-Impact Hero Section (Replaces the broken carousel) -->
+    <section class="relative hero-pattern pt-12 pb-16 lg:py-20 border-b border-borderSubtle">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Left: Clear & Concise Value Proposition -->
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-50 border border-red-200 text-brandRed text-xs font-bold tracking-wide">
+                        <i class="fa-solid fa-award"></i>
+                        ACS Approved Contractor Standards • SIA Licensed
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-primary tracking-tight leading-[1.15]">
+                        Professional Uniformed Security Guards <span class="text-brandRed">On Demand.</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-600 max-w-xl leading-relaxed">
+                        Instant deployment of vetted, SIA-licensed security personnel across the UK. From corporate front-of-house to high-visibility site patrols and rapid emergency cover.
+                    </p>
+
+                    <!-- Trust Points -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+                        <div class="flex items-center gap-2 text-xs font-semibold text-slate-700">
+                            <i class="fa-solid fa-circle-check text-brandRed"></i>
+                            <span>100% SIA Licensed</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-xs font-semibold text-slate-700">
+                            <i class="fa-solid fa-circle-check text-brandRed"></i>
+                            <span>Full Uniform & Radio</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-xs font-semibold text-slate-700">
+                            <i class="fa-solid fa-circle-check text-brandRed"></i>
+                            <span>Rapid Deployment</span>
+                        </div>
+                    </div>
+
+                    <!-- Direct Action Buttons -->
+                    <div class="flex flex-wrap items-center gap-4 pt-4">
+                        <a href="#guards-gallery" class="bg-brandRed hover:bg-brandRedHover text-white px-7 py-3.5 rounded-xl font-bold text-sm shadow-lg shadow-red-500/25 transition-all flex items-center gap-2">
+                            <span>View Security Officers</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                        <a href="#contact" class="bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 px-6 py-3.5 rounded-xl font-semibold text-sm transition-all flex items-center gap-2">
+                            <i class="fa-solid fa-user-shield text-brandRed"></i>
+                            <span>Book Guards Now</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Right: High-Impact Visual Guard Presentation & Quick Form -->
+                <div class="lg:col-span-6 space-y-6">
+                    <!-- Prominent Security Guard Hero Visual Banner -->
+                    <div class="relative rounded-2xl overflow-hidden clean-shadow border border-slate-200 group">
+                        <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80" 
+                             alt="Uniformed Security Guard on Duty" 
+                             class="w-full h-64 sm:h-72 object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                             onerror="this.src='https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent"></div>
+                        
+                        <!-- Floating Verification Badges over Guard Image -->
+                        <div class="absolute top-4 left-4 flex flex-wrap gap-2">
+                            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-950/80 backdrop-blur-md text-white text-[11px] font-bold border border-white/20">
+                                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                                SIA Licensed Officers Active
+                            </span>
+                            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brandRed text-white text-[11px] font-bold shadow-md">
+                                <i class="fa-solid fa-shield-halved"></i> 24/7 Guard Dispatch
+                            </span>
+                        </div>
+
+                        <!-- Guard Caption Overlay -->
+                        <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white">
+                            <div>
+                                <h4 class="font-bold text-sm tracking-wide">Vetted & Screened Personnel</h4>
+                                <p class="text-[11px] text-slate-300">Equipped with 2-way body comms, GPS & hi-vis uniform</p>
+                            </div>
+                            <span class="text-xs bg-white/20 backdrop-blur-sm px-2.5 py-1 rounded-lg border border-white/30 font-semibold">
+                                UK Wide Cover
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Direct Quick Request Card -->
+                    <div class="bg-white rounded-2xl p-5 sm:p-6 clean-shadow border border-slate-200">
+                        <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
+                            <div>
+                                <h3 class="font-bold text-primary text-base">Request Officer Deployment</h3>
+                                <p class="text-xs text-slate-500">Select guard role & get immediate rates</p>
+                            </div>
+                            <span class="w-8 h-8 rounded-lg bg-red-50 text-brandRed flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-bolt"></i>
+                            </span>
+                        </div>
+
+                        <form id="quickHeroForm" class="space-y-3">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Guard Uniform / Type</label>
+                                    <select id="heroService" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs font-medium text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white">
+                                        <option value="Front of House (Corporate Suit & Tie)">Front of House (Corporate Suit & Tie)</option>
+                                        <option value="High-Vis Manned Guard (Site & Retail)" selected>High-Vis Manned Guard (Site & Retail)</option>
+                                        <option value="Construction Site Safety Officer (CSCS)">Construction Safety Officer (CSCS)</option>
+                                        <option value="Door Supervisor / Tactical Event Steward">Door Supervisor / Tactical Event</option>
+                                        <option value="Waking Watch / Fire Marshal">Waking Watch / Fire Marshal</option>
+                                        <option value="K9 Dog Handler Unit">K9 Dog Handler Unit</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Guards Needed</label>
+                                    <select id="heroGuards" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs font-medium text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white">
+                                        <option value="1 Guard">1 Guard</option>
+                                        <option value="2-4 Guards" selected>2 - 4 Guards</option>
+                                        <option value="5-10 Guards">5 - 10 Guards</option>
+                                        <option value="10+ Guards">10+ Guards (Large Site/Event)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Deployment Location / Postcode</label>
+                                    <input type="text" id="heroLocation" required placeholder="e.g. London / Manchester" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Direct Phone or Email</label>
+                                    <input type="text" id="heroContact" required placeholder="Phone / Email" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="w-full py-2.5 bg-brandRed hover:bg-brandRedHover text-white font-bold rounded-lg text-xs uppercase tracking-wider transition-colors flex items-center justify-center gap-2 shadow-md shadow-red-500/20">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                <span>Get Fast Guard Rates</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Guard Personnel Gallery Showcase (Direct visual proof of guards) -->
+    <section id="guards-gallery" class="py-16 bg-white border-b border-borderSubtle">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+                <div>
+                    <span class="text-xs font-bold text-brandRed uppercase tracking-wider block mb-1">Our Trained Personnel</span>
+                    <h2 class="text-3xl font-extrabold text-primary tracking-tight">Security Officers in Action</h2>
+                    <p class="text-sm text-slate-500 mt-1">Every officer is BS7858 screened, SIA certified, and equipped in full professional uniform.</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-50 text-emerald-700 font-bold text-xs border border-emerald-200">
+                        <i class="fa-solid fa-shield-check"></i> Standard BS7858 Vetted
+                    </span>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-50 text-brandRed font-bold text-xs border border-red-200">
+                        <i class="fa-solid fa-walkie-talkie"></i> Body-Worn Tech Ready
+                    </span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Officer Type 1: High-Vis Manned Guarding -->
+                <div class="group rounded-2xl overflow-hidden border border-slate-200 bg-surfaceMuted clean-shadow card-hover flex flex-col">
+                    <div class="relative h-60 overflow-hidden bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=700&q=80" 
+                             alt="Uniformed High-Vis Security Guard" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://placehold.co/600x400/0F172A/FFFFFF?text=High-Vis+Patrol+Guard'">
+                        <span class="absolute top-3 left-3 bg-brandRed text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-md shadow">
+                            Manned Patrol
+                        </span>
+                        <div class="absolute bottom-2 right-2 bg-slate-950/80 backdrop-blur-sm text-white text-[10px] px-2 py-0.5 rounded">
+                            <i class="fa-solid fa-id-badge text-brandRed mr-1"></i> SIA Badge Displayed
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-base font-bold text-primary mb-1">Manned Static Officers</h3>
+                            <p class="text-xs text-slate-500 leading-relaxed mb-3">
+                                High-visibility patrol uniforms, radio earpieces, gatehouse entry logging, and property deterrence.
+                            </p>
+                        </div>
+                        <a href="#contact" class="text-xs font-bold text-brandRed hover:text-brandRedHover inline-flex items-center gap-1">
+                            <span>Deploy Manned Guards</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Officer Type 2: Corporate Front of House (Suit & Tie) -->
+                <div class="group rounded-2xl overflow-hidden border border-slate-200 bg-surfaceMuted clean-shadow card-hover flex flex-col">
+                    <div class="relative h-60 overflow-hidden bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80" 
+                             alt="Corporate Concierge Security Officer in Suit" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://placehold.co/600x400/0F172A/FFFFFF?text=Corporate+Concierge+Guard'">
+                        <span class="absolute top-3 left-3 bg-primary text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-md shadow">
+                            Corporate Concierge
+                        </span>
+                        <div class="absolute bottom-2 right-2 bg-slate-950/80 backdrop-blur-sm text-white text-[10px] px-2 py-0.5 rounded">
+                            <i class="fa-solid fa-user-tie text-brandRed mr-1"></i> Smart Formal Attire
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-base font-bold text-primary mb-1">Front of House & Concierge</h3>
+                            <p class="text-xs text-slate-500 leading-relaxed mb-3">
+                                Smart-suited security receptionists combining elite customer service with discreet access control.
+                            </p>
+                        </div>
+                        <a href="#contact" class="text-xs font-bold text-brandRed hover:text-brandRedHover inline-flex items-center gap-1">
+                            <span>Book Corporate Guards</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Officer Type 3: Construction & Industrial Protection -->
+                <div class="group rounded-2xl overflow-hidden border border-slate-200 bg-surfaceMuted clean-shadow card-hover flex flex-col">
+                    <div class="relative h-60 overflow-hidden bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80" 
+                             alt="Construction Site Security Guard with Hard Hat" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://placehold.co/600x400/0F172A/FFFFFF?text=Construction+Site+Officer'">
+                        <span class="absolute top-3 left-3 bg-amber-600 text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-md shadow">
+                            CSCS Compliant
+                        </span>
+                        <div class="absolute bottom-2 right-2 bg-slate-950/80 backdrop-blur-sm text-white text-[10px] px-2 py-0.5 rounded">
+                            <i class="fa-solid fa-helmet-safety text-amber-400 mr-1"></i> Full PPE Equipment
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-base font-bold text-primary mb-1">Construction Site Guards</h3>
+                            <p class="text-xs text-slate-500 leading-relaxed mb-3">
+                                Hardhat & safety-booted guards preventing plant machinery theft, metal scavenging, and trespassing.
+                            </p>
+                        </div>
+                        <a href="#contact" class="text-xs font-bold text-brandRed hover:text-brandRedHover inline-flex items-center gap-1">
+                            <span>Secure Site Construction</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Officer Type 4: 24/7 CCTV & Control Room Command -->
+                <div class="group rounded-2xl overflow-hidden border border-slate-200 bg-surfaceMuted clean-shadow card-hover flex flex-col">
+                    <div class="relative h-60 overflow-hidden bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=700&q=80" 
+                             alt="Control Room and CCTV Security Operator" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://placehold.co/600x400/0F172A/FFFFFF?text=CCTV+Control+Room'">
+                        <span class="absolute top-3 left-3 bg-emerald-600 text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-md shadow">
+                            24/7 Monitoring
+                        </span>
+                        <div class="absolute bottom-2 right-2 bg-slate-950/80 backdrop-blur-sm text-white text-[10px] px-2 py-0.5 rounded">
+                            <i class="fa-solid fa-desktop text-emerald-400 mr-1"></i> Live Dispatch
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-base font-bold text-primary mb-1">CCTV & Control Operators</h3>
+                            <p class="text-xs text-slate-500 leading-relaxed mb-3">
+                                Dedicated monitoring specialists verifying alarms, coordinating mobile units, and logging incidents live.
+                            </p>
+                        </div>
+                        <a href="mailto:control@kiasecure.com" class="text-xs font-bold text-brandRed hover:text-brandRedHover inline-flex items-center gap-1">
+                            <span>Email Control Room</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Accreditations Minimal Bar -->
+    <section id="accreditation" class="py-8 bg-surfaceMuted border-b border-borderSubtle">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            <div class="flex flex-wrap items-center justify-between gap-6">
+                <div class="flex items-center gap-3">
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Industry Standards:</span>
+                </div>
+                
+                <div class="flex flex-wrap items-center gap-4 sm:gap-8">
+                    <!-- Badge 1: ACS -->
+                    <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-slate-200 text-xs font-bold text-primary">
+                        <span class="w-6 h-6 rounded bg-red-100 text-brandRed flex items-center justify-center text-[10px] font-black">ACS</span>
+                        <span>Approved Contractor Scheme</span>
+                    </div>
+
+                    <!-- Badge 2: SIA -->
+                    <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-slate-200 text-xs font-bold text-primary">
+                        <i class="fa-solid fa-id-badge text-brandRed text-sm"></i>
+                        <span>100% SIA Licenced Officers</span>
+                    </div>
+
+                    <!-- Badge 3: ISO -->
+                    <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-slate-200 text-xs font-bold text-primary">
+                        <i class="fa-solid fa-certificate text-emerald-600 text-sm"></i>
+                        <span>ISO 9001 Quality Certified</span>
+                    </div>
+
+                    <!-- Badge 4: 24/7 -->
+                    <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-slate-200 text-xs font-bold text-primary">
+                        <i class="fa-solid fa-clock text-amber-500 text-sm"></i>
+                        <span>24/7 UK Operations Center</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services: Clean, Crisp 6-Card Grid (No visual clutter) -->
+    <section id="services" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold text-brandRed uppercase tracking-wider block mb-1">What We Do</span>
+                <h2 class="text-3xl font-extrabold text-primary tracking-tight">Our Security Services</h2>
+                <p class="text-sm text-slate-500 mt-2">Tailored security services built to protect staff, property, and assets across the UK.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- 1. Static Guarding -->
+                <div class="p-6 rounded-xl border border-slate-200 bg-white card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-red-50 text-brandRed flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-building-shield"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-primary mb-2">Static & Corporate Guarding</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            Professional front-of-house officers, gatehouse personnel, and reception concierge safeguarding offices and commercial facilities.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-xs font-bold text-brandRed hover:text-brandRedHover flex items-center gap-1.5 pt-2">
+                        <span>Book Static Guards</span>
+                        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- 2. Construction Site -->
+                <div class="p-6 rounded-xl border border-slate-200 bg-white card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-red-50 text-brandRed flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-helmet-safety"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-primary mb-2">Construction Site Protection</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            CSCS-compliant security guards protecting multimillion heavy plant equipment, fuel, and perimeter boundaries 24/7.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-xs font-bold text-brandRed hover:text-brandRedHover flex items-center gap-1.5 pt-2">
+                        <span>Protect Construction Site</span>
+                        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- 3. Retail & Mall Security -->
+                <div class="p-6 rounded-xl border border-slate-200 bg-white card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-red-50 text-brandRed flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-store"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-primary mb-2">Retail & Loss Prevention</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            High-visibility uniformed officers trained in shoplifting deterrence, conflict management, and civil recovery.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-xs font-bold text-brandRed hover:text-brandRedHover flex items-center gap-1.5 pt-2">
+                        <span>Request Retail Staff</span>
+                        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- 4. Event Stewarding -->
+                <div class="p-6 rounded-xl border border-slate-200 bg-white card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-red-50 text-brandRed flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-users-line"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-primary mb-2">Events & Stewarding</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            Licensed door supervisors and event stewards managing bag checks, queues, VIP zones, and crowd safety protocols.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-xs font-bold text-brandRed hover:text-brandRedHover flex items-center gap-1.5 pt-2">
+                        <span>Staff Your Event</span>
+                        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- 5. Fire Marshals -->
+                <div class="p-6 rounded-xl border border-slate-200 bg-white card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-red-50 text-brandRed flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-fire-extinguisher"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-primary mb-2">Waking Watch & Fire Marshals</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            Certified 24/7 fire watch patrol wardens for residential buildings, cladding issues, and fire compliance maintenance.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-xs font-bold text-brandRed hover:text-brandRedHover flex items-center gap-1.5 pt-2">
+                        <span>Deploy Fire Wardens</span>
+                        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- 6. K9 Units & Mobile Patrols -->
+                <div class="p-6 rounded-xl border border-slate-200 bg-white card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-red-50 text-brandRed flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-dog"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-primary mb-2">K9 Canine & Mobile Patrols</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            NASDU-qualified canine handler units and GPS-tracked mobile patrol vehicles for large perimeter deterrence.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-xs font-bold text-brandRed hover:text-brandRedHover flex items-center gap-1.5 pt-2">
+                        <span>Book Patrol Units</span>
+                        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Department Email Directory (User-Friendly, Categorized Tabs & 1-Click Copy) -->
+    <section id="directory" class="py-16 bg-surfaceMuted border-y border-borderSubtle">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+                <div>
+                    <span class="text-xs font-bold text-brandRed uppercase tracking-wider block mb-1">Direct Lines</span>
+                    <h2 class="text-3xl font-extrabold text-primary tracking-tight">Department Email Directory</h2>
+                    <p class="text-xs sm:text-sm text-slate-500 mt-1">Get in touch directly with the exact department at <span class="font-semibold text-slate-700">@kiasecure.com</span>.</p>
+                </div>
+
+                <!-- Quick Filter Tabs -->
+                <div class="flex flex-wrap items-center gap-2 bg-slate-200/70 p-1 rounded-xl">
+                    <button class="dept-filter-btn px-3 py-1.5 text-xs font-bold rounded-lg bg-white text-primary shadow-sm" data-category="all">All Channels</button>
+                    <button class="dept-filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-primary" data-category="operations">Operations</button>
+                    <button class="dept-filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-primary" data-category="management">Management & HR</button>
+                    <button class="dept-filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-primary" data-category="finance">Finance</button>
+                </div>
+            </div>
+
+            <!-- Email Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4" id="emailCardsGrid">
+                
+                <!-- 1. Info / General -->
+                <div class="email-card bg-white p-5 rounded-xl border border-slate-200 clean-shadow flex flex-col justify-between" data-dept="operations">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-bold text-slate-400 uppercase">General</span>
+                            <span class="w-2 h-2 rounded-full bg-slate-300"></span>
+                        </div>
+                        <h4 class="font-bold text-primary text-sm mb-1">General Inquiries</h4>
+                        <p class="text-[11px] text-slate-500 mb-3">Tenders, client questions, and general info.</p>
+                    </div>
+                    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-between">
+                        <span class="font-mono text-xs font-semibold text-slate-800 truncate">info@kiasecure.com</span>
+                        <div class="flex items-center gap-1.5 flex-shrink-0">
+                            <button onclick="copyMail('info@kiasecure.com', this)" title="Copy Email" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                            <a href="mailto:info@kiasecure.com" title="Open Mail" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Business / Sales -->
+                <div class="email-card bg-white p-5 rounded-xl border border-slate-200 clean-shadow flex flex-col justify-between" data-dept="operations">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-bold text-emerald-600 uppercase">New Business</span>
+                            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                        </div>
+                        <h4 class="font-bold text-primary text-sm mb-1">Business Development</h4>
+                        <p class="text-[11px] text-slate-500 mb-3">Contracts, subcontracts, and tenders.</p>
+                    </div>
+                    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-between">
+                        <span class="font-mono text-xs font-semibold text-slate-800 truncate">business@kiasecure.com</span>
+                        <div class="flex items-center gap-1.5 flex-shrink-0">
+                            <button onclick="copyMail('business@kiasecure.com', this)" title="Copy Email" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                            <a href="mailto:business@kiasecure.com" title="Open Mail" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Control Room (24/7) -->
+                <div class="email-card bg-white p-5 rounded-xl border-2 border-brandRed/40 clean-shadow flex flex-col justify-between" data-dept="operations">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-bold text-brandRed uppercase">24/7 Emergency</span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-brandRed animate-pulse"></span>
+                        </div>
+                        <h4 class="font-bold text-primary text-sm mb-1">Control Room</h4>
+                        <p class="text-[11px] text-slate-500 mb-3">Instant dispatch, incident reports & cover.</p>
+                    </div>
+                    <div class="p-2.5 rounded-lg bg-red-50/50 border border-red-200 flex items-center justify-between">
+                        <span class="font-mono text-xs font-bold text-brandRed truncate">control@kiasecure.com</span>
+                        <div class="flex items-center gap-1.5 flex-shrink-0">
+                            <button onclick="copyMail('control@kiasecure.com', this)" title="Copy Email" class="p-1 hover:text-brandRed text-slate-600 transition-colors">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                            <a href="mailto:control@kiasecure.com" title="Open Mail" class="p-1 hover:text-brandRed text-slate-600 transition-colors">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Director of Operations -->
+                <div class="email-card bg-white p-5 rounded-xl border border-slate-200 clean-shadow flex flex-col justify-between" data-dept="management">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-bold text-slate-400 uppercase">Executive</span>
+                            <span class="w-2 h-2 rounded-full bg-slate-300"></span>
+                        </div>
+                        <h4 class="font-bold text-primary text-sm mb-1">Director of Operations</h4>
+                        <p class="text-[11px] text-slate-500 mb-3">High-level management and SLA delivery.</p>
+                    </div>
+                    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-between">
+                        <span class="font-mono text-xs font-semibold text-slate-800 truncate">director.ops@kiasecure.com</span>
+                        <div class="flex items-center gap-1.5 flex-shrink-0">
+                            <button onclick="copyMail('director.ops@kiasecure.com', this)" title="Copy Email" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                            <a href="mailto:director.ops@kiasecure.com" title="Open Mail" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. HR & Recruitment -->
+                <div class="email-card bg-white p-5 rounded-xl border border-slate-200 clean-shadow flex flex-col justify-between" data-dept="management">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-bold text-slate-400 uppercase">Recruitment</span>
+                            <span class="w-2 h-2 rounded-full bg-slate-300"></span>
+                        </div>
+                        <h4 class="font-bold text-primary text-sm mb-1">HR & Officer Vetting</h4>
+                        <p class="text-[11px] text-slate-500 mb-3">Officer applications, careers & screening.</p>
+                    </div>
+                    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-between">
+                        <span class="font-mono text-xs font-semibold text-slate-800 truncate">hr@kiasecure.com</span>
+                        <div class="flex items-center gap-1.5 flex-shrink-0">
+                            <button onclick="copyMail('hr@kiasecure.com', this)" title="Copy Email" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                            <a href="mailto:hr@kiasecure.com" title="Open Mail" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Compliance & Audits -->
+                <div class="email-card bg-white p-5 rounded-xl border border-slate-200 clean-shadow flex flex-col justify-between" data-dept="management">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-bold text-slate-400 uppercase">Governance</span>
+                            <span class="w-2 h-2 rounded-full bg-slate-300"></span>
+                        </div>
+                        <h4 class="font-bold text-primary text-sm mb-1">Compliance & ACS</h4>
+                        <p class="text-[11px] text-slate-500 mb-3">ACS audits, ISO quality and compliance.</p>
+                    </div>
+                    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-between">
+                        <span class="font-mono text-xs font-semibold text-slate-800 truncate">compliance@kiasecure.com</span>
+                        <div class="flex items-center gap-1.5 flex-shrink-0">
+                            <button onclick="copyMail('compliance@kiasecure.com', this)" title="Copy Email" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                            <a href="mailto:compliance@kiasecure.com" title="Open Mail" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Accounts / Receivable -->
+                <div class="email-card bg-white p-5 rounded-xl border border-slate-200 clean-shadow flex flex-col justify-between" data-dept="finance">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-bold text-slate-400 uppercase">Billing</span>
+                            <span class="w-2 h-2 rounded-full bg-slate-300"></span>
+                        </div>
+                        <h4 class="font-bold text-primary text-sm mb-1">Accounts Receivable</h4>
+                        <p class="text-[11px] text-slate-500 mb-3">Client invoicing and VAT queries.</p>
+                    </div>
+                    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-between">
+                        <span class="font-mono text-xs font-semibold text-slate-800 truncate">accounts@kiasecure.com</span>
+                        <div class="flex items-center gap-1.5 flex-shrink-0">
+                            <button onclick="copyMail('accounts@kiasecure.com', this)" title="Copy Email" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                            <a href="mailto:accounts@kiasecure.com" title="Open Mail" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Payroll -->
+                <div class="email-card bg-white p-5 rounded-xl border border-slate-200 clean-shadow flex flex-col justify-between" data-dept="finance">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-bold text-slate-400 uppercase">Wages</span>
+                            <span class="w-2 h-2 rounded-full bg-slate-300"></span>
+                        </div>
+                        <h4 class="font-bold text-primary text-sm mb-1">Staff Payroll</h4>
+                        <p class="text-[11px] text-slate-500 mb-3">Security guard payroll & wage queries.</p>
+                    </div>
+                    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-between">
+                        <span class="font-mono text-xs font-semibold text-slate-800 truncate">payroll@kiasecure.com</span>
+                        <div class="flex items-center gap-1.5 flex-shrink-0">
+                            <button onclick="copyMail('payroll@kiasecure.com', this)" title="Copy Email" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                            <a href="mailto:payroll@kiasecure.com" title="Open Mail" class="p-1 hover:text-brandRed text-slate-500 transition-colors">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section (Crisp & Simple) -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                
+                <div>
+                    <span class="text-xs font-bold text-brandRed uppercase tracking-wider block mb-1">About Kia Secure</span>
+                    <h2 class="text-3xl font-extrabold text-primary tracking-tight mb-4">
+                        A Security Partner Dedicated To High Standards & Transparency
+                    </h2>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Based in the United Kingdom, <strong>Kia Secure</strong> provides vetted SIA-licensed security personnel to commercial property managers, building contractors, and private events.
+                    </p>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        We pride ourselves on direct communication, eliminating bureaucratic layers through our specialized email and control room infrastructure.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-4 pt-2">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="text-2xl font-extrabold text-brandRed">100%</div>
+                            <div class="text-xs font-semibold text-slate-600 mt-1">SIA Licensed Staff</div>
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="text-2xl font-extrabold text-primary">24/7/365</div>
+                            <div class="text-xs font-semibold text-slate-600 mt-1">Direct Control Support</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="bg-slate-900 rounded-2xl p-8 text-white relative overflow-hidden clean-shadow">
+                        <div class="relative z-10 space-y-4">
+                            <div class="w-10 h-10 rounded-lg bg-brandRed flex items-center justify-center font-bold text-white text-lg">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">Need Urgent Guard Deployment?</h3>
+                            <p class="text-slate-300 text-xs leading-relaxed">
+                                Our Control Room is active right now. Reach out for short-notice emergency coverage or scheduled contracts.
+                            </p>
+                            <div class="pt-2">
+                                <a href="mailto:control@kiasecure.com" class="inline-flex items-center gap-2 bg-brandRed hover:bg-brandRedHover text-white px-5 py-2.5 rounded-lg text-xs font-bold transition-all">
+                                    <i class="fa-solid fa-headset"></i> Email Control Room
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Straightforward, Friendly Contact Form -->
+    <section id="contact" class="py-16 bg-surfaceMuted border-t border-borderSubtle">
+        <div class="max-w-3xl mx-auto px-4 sm:px-8">
+            
+            <div class="text-center mb-10">
+                <span class="text-xs font-bold text-brandRed uppercase tracking-wider block mb-1">Get In Touch</span>
+                <h2 class="text-3xl font-extrabold text-primary tracking-tight">Direct Contact Form</h2>
+                <p class="text-sm text-slate-500 mt-2">Send us your inquiry and our team will get back to you promptly.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 sm:p-8 clean-shadow border border-slate-200">
+                <form id="mainContactForm" class="space-y-4">
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Your Full Name *</label>
+                            <input type="text" required placeholder="John Doe" id="contactName" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2.5 text-xs text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Company / Organization</label>
+                            <input type="text" placeholder="Company Name" id="contactCompany" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2.5 text-xs text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Email Address *</label>
+                            <input type="email" required placeholder="name@company.com" id="contactEmail" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2.5 text-xs text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Phone Number *</label>
+                            <input type="tel" required placeholder="+44 7000 000000" id="contactPhone" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2.5 text-xs text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Select Department</label>
+                        <select id="contactDept" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2.5 text-xs font-medium text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white">
+                            <option value="business@kiasecure.com">Business / Sales (New Quotations)</option>
+                            <option value="control@kiasecure.com">Control Room (Emergency Staffing)</option>
+                            <option value="director.ops@kiasecure.com">Director of Operations</option>
+                            <option value="hr@kiasecure.com">HR & Career Applications</option>
+                            <option value="compliance@kiasecure.com">Compliance & ACS Quality</option>
+                            <option value="accounts@kiasecure.com">Accounts & Payroll</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Your Message or Requirements *</label>
+                        <textarea id="contactMessage" required rows="4" placeholder="Tell us about the site location, number of guards needed, or service type..." class="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-xs text-slate-800 focus:outline-none focus:border-brandRed focus:bg-white"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-3.5 bg-brandRed hover:bg-brandRedHover text-white font-bold rounded-lg text-xs uppercase tracking-wider transition-colors shadow-md shadow-red-500/20">
+                        Submit Message
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Clean Minimal Footer -->
+    <footer class="bg-white border-t border-borderSubtle py-12 text-slate-500 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                
+                <!-- Brand Info -->
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 flex-shrink-0">
+                        <svg viewBox="0 0 200 220" class="w-full h-full" fill="none">
+                            <path d="M100 12 L20 45 V125 C20 170 58 200 100 216 V12 Z" fill="#DC2626" />
+                            <path d="M100 12 L180 45 V125 C180 170 142 200 100 216 V12 Z" fill="#0F172A" />
+                            <path d="M100 25 L34 53 V120 C34 158 66 186 100 200 C134 186 166 158 166 120 V53 L100 25 Z" fill="#FFFFFF"/>
+                            <path d="M48 64 H64 V92 L82 64 H100 L79 98 L102 142 H84 L67 108 L64 113 V142 H48 V64 Z" fill="#DC2626"/>
+                            <path d="M93 64 H107 V142 H93 V64 Z" fill="#0F172A"/>
+                            <path d="M110 142 L132 64 H148 L170 142 H153 L147 122 H127 L122 142 H110 Z M132 107 H143 L138 84 L132 107 Z" fill="#0F172A"/>
+                            <rect x="85" y="154" width="30" height="30" rx="4" fill="#0F172A"/>
+                            <circle cx="100" cy="166" r="3" fill="#FFFFFF"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="font-bold text-primary text-sm">KIA SECURE</div>
+                        <div class="text-[10px] text-slate-400">kiasecure.com • United Kingdom</div>
+                    </div>
+                </div>
+
+                <!-- Footer Nav -->
+                <div class="flex flex-wrap items-center gap-6 text-slate-600 font-medium">
+                    <a href="#services" class="hover:text-brandRed">Services</a>
+                    <a href="#directory" class="hover:text-brandRed">Directory</a>
+                    <a href="#accreditation" class="hover:text-brandRed">ACS Scheme</a>
+                    <a href="#contact" class="hover:text-brandRed">Contact</a>
+                </div>
+
+                <!-- Copyright -->
+                <div>
+                    &copy; 2026 Kia Secure. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification (for copy and actions) -->
+    <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none bg-primary text-white px-4 py-3 rounded-xl shadow-xl flex items-center gap-3 text-xs">
+        <i class="fa-solid fa-circle-check text-brandRed text-sm"></i>
+        <span id="toastMessage">Email copied to clipboard!</span>
+    </div>
+
+    <!-- Submission Modal -->
+    <div id="successModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+        <div class="bg-white max-w-sm w-full rounded-2xl p-6 text-center clean-shadow border border-slate-100">
+            <div class="w-12 h-12 rounded-full bg-emerald-50 text-emerald-600 mx-auto flex items-center justify-center text-xl mb-3">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h3 class="font-bold text-primary text-base mb-1">Inquiry Sent Successfully</h3>
+            <p class="text-xs text-slate-500 mb-5 leading-relaxed" id="modalSubtext">
+                Your message has been routed to our operations team. We will respond within 15 minutes.
+            </p>
+            <button onclick="closeModal()" class="w-full py-2.5 bg-primary hover:bg-slate-800 text-white font-bold rounded-lg text-xs transition-colors">
+                Done
+            </button>
+        </div>
+    </div>
+
+    <!-- Lightweight JavaScript -->
+    <script>
+        // 1. Mobile Menu Toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        document.querySelectorAll('.mobile-nav').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // 2. Department Category Filter Tabs
+        const filterBtns = document.querySelectorAll('.dept-filter-btn');
+        const emailCards = document.querySelectorAll('.email-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => {
+                    b.classList.remove('bg-white', 'text-primary', 'shadow-sm');
+                    b.classList.add('text-slate-600');
+                });
+                btn.classList.add('bg-white', 'text-primary', 'shadow-sm');
+                btn.classList.remove('text-slate-600');
+
+                const category = btn.getAttribute('data-category');
+                emailCards.forEach(card => {
+                    if (category === 'all' || card.getAttribute('data-dept') === category) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // 3. 1-Click Clipboard Copy with Toast
+        function copyMail(text, btnElement) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.left = '-9999px';
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                document.execCommand('copy');
+                showToast(`Copied ${text} to clipboard!`);
+                if (btnElement) {
+                    const original = btnElement.innerHTML;
+                    btnElement.innerHTML = '<i class="fa-solid fa-check text-emerald-600 text-xs"></i>';
+                    setTimeout(() => btnElement.innerHTML = original, 1800);
+                }
+            } catch (err) {
+                console.error(err);
+            }
+            document.body.removeChild(textarea);
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toastMessage').textContent = msg;
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            toast.classList.add('translate-y-0', 'opacity-100');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+                toast.classList.remove('translate-y-0', 'opacity-100');
+            }, 2500);
+        }
+
+        // 4. Hero Quick Form -> Transfer To Main Form
+        document.getElementById('quickHeroForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const service = document.getElementById('heroService').value;
+            const guards = document.getElementById('heroGuards').value;
+            const loc = document.getElementById('heroLocation').value;
+            const contact = document.getElementById('heroContact').value;
+
+            document.getElementById('contactMessage').value = `Requesting Quote: ${service}\nQuantity: ${guards}\nLocation: ${loc}\nClient Contact: ${contact}`;
+            
+            // Scroll to contact form smoothly
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+            showToast("Details transferred! Please complete your message below.");
+        });
+
+        // 5. Contact Form Submission
+        document.getElementById('mainContactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const dept = document.getElementById('contactDept').value;
+            document.getElementById('modalSubtext').innerHTML = `Your inquiry has been successfully routed to <strong class="text-slate-800">${dept}</strong>. We will get back to you shortly.`;
+            document.getElementById('successModal').classList.remove('hidden');
+            this.reset();
+        });
+
+        function closeModal() {
+            document.getElementById('successModal').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
